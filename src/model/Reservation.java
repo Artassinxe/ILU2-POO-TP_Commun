@@ -1,10 +1,10 @@
 package model;
 
 public abstract class Reservation {
-	public int jour;
-	public int mois;
+	private int jour;
+	private int mois;
 
-	public Reservation(int jour, int mois) {
+	protected Reservation(int jour, int mois) {
 		this.jour = jour;
 		this.mois = mois;
 	}
